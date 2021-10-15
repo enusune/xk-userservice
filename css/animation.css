@@ -1,0 +1,52 @@
+@keyframes page-active {
+  from {
+    background-color: #fff;
+  }
+  to {
+    background-color: rgb(245, 245, 220, 1);
+  }
+}
+@-webkit-keyframes page-active {
+  from {
+    background-color: #fff;
+  }
+  to {
+    background-color: rgb(245, 245, 220, 1);
+  }
+}
+@keyframes page {
+  from {
+    background-color: rgb(245, 245, 220, 1);
+  }
+  to {
+    background-color: #fff;
+  }
+}
+@-webkit-keyframes page {
+  from {
+    background-color: rgb(245, 245, 220, 1);
+  }
+  to {
+    background-color: #fff;
+  }
+}
+@-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
