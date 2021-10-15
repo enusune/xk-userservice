@@ -38,8 +38,7 @@ body {
 .page-first {
   box-sizing: border-box;
   padding: 0 30px;
-  background: url('http://jwsso.xust.edu.cn/files/2021/05/19/69409060a4d4ce7da9c.png')
-    rgba(0, 0, 0, 0.5) no-repeat center center;
+  background: url('../images/69409060a4d4ce7da9c.png') rgba(0, 0, 0, 0.5) no-repeat center center;
   background-size: cover;
   background-blend-mode: multiply;
   color: #fff;
